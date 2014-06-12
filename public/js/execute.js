@@ -130,14 +130,14 @@
     tpl = '<tr><td></td>';
     for(j = 0; j < m.cols(); ++j) {
       tpl += '<td>';
-      tpl += '<a href="#" data-col="'+j+'" class="add">+</a>';
+      tpl += '<a href="#" data-col="'+j+'" class="add"><i class="fa fa-plus-square"></i></a>';
       tpl += '</td>';
     }
     $('#the-matrix').append(tpl);
     tpl = '<tr><td></td>';
     for(j = 0; j < m.cols(); ++j) {
       tpl += '<td>';
-      tpl += '<a href="#" data-col="'+j+'" class="sub">-</a>';
+      tpl += '<a href="#" data-col="'+j+'" class="sub"><i class="fa fa-minus-square"></i></a>';
       tpl += '</td>';
     }
     $('#the-matrix').append(tpl);

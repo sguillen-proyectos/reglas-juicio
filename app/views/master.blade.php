@@ -3,6 +3,7 @@
 <head>
   <title>Sistemas Expertos</title>
   <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
   @yield('styles', '')
 </head>
 <body>
