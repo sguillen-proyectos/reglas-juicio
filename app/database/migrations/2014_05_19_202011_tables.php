@@ -14,8 +14,8 @@ class Tables extends Migration {
 		Schema::create('rule_sets', function($t) {
 			$t->increments('id');
 			$t->string('name');
-			$t->string('descriptors');
-			$t->string('entities');
+			$t->text('descriptors');
+			$t->text('entities');
 			$t->timestamps();
 		});
 	}

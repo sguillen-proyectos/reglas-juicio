@@ -41,7 +41,18 @@
     });
     var testResult = m.getSum(testArray);
     console.log(JSON.stringify(testResult));
-    alert(JSON.stringify(testResult));
+    var max = -100;
+    var idx = -1;
+    for(var  i = 0; i < testResult.length; ++i) {
+      if (testResult[i] > max) {
+        max = testResult[i];
+        idx = i;
+      }
+    }
+    // alert(JSON.stringify(testResult));
+    // alert(entities[idx].name);
+    $('#msg-res').empty();
+    $('#msg-res').append('Las caracteristicas <br> se asemejan a: ' + entities[idx].name);
   };
 
   init = function(info) {

@@ -18,6 +18,7 @@
   <div class="col-md-4">
     <h4>Resultados Generados</h4>
     <table class="t" id="results" border="1"></table>
+    <h3 id="msg-res"></h3>
   </div>
 </div>
 @stop
